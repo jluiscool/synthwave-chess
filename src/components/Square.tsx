@@ -14,6 +14,6 @@ export default function Square({ index, row }: SquareProps) {
         }
     }
     return (
-        <div className={`${getSquareColor(index, row)} w-[calc(100vw/8)] h-[calc(100vw/8)]`} />
+        <div className={`${getSquareColor(index, row)} w-[calc(100vw/8)] h-[calc(100vw/8)] max-w-[8vh] max-h-[8vh]`} />
     )
 }
