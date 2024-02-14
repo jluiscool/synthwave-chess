@@ -50,8 +50,13 @@ export default {
         buttonDesktop: "16px",
       },
       boxShadow: {
+        lightSquarePhone: "0px 0px 11.2px 9px #791E94 inset, 0px 0px 4.3px 5px rgba(45, 226, 230, 0.25) inset",
+        darkSquarePhone: "0px 0px 4.5px 5px rgba(45, 226, 230, 0.25) inset;",
       },
       backdropBlur: {
+      },
+      borderWidth: {
+        squareBorder: "1px",
       },
       screens: {
         phone: "320px",

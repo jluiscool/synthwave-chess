@@ -14,6 +14,6 @@ export default function BoardRow({ index }: BoardRowProps) {
         return squaresArray
     }
     return (
-        <div className="flex items-start mx-auto">{renderSquares(squares)}</div>
+        <div className="flex items-start w-full aspect-[8/1]">{renderSquares(squares)}</div>
     )
 }
