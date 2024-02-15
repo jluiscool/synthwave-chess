@@ -7,7 +7,7 @@ type PlayerBarProps = {
 
 export default function PlayerBar({ player }: PlayerBarProps) {
     return (
-        <div className="w-full flex justify-around px-mobileMargin">
+        <div className="w-full flex justify-around px-mobileMargina desktop:text-[24px]">
             <h2 className={`${player === "White" ? "text-synthTeal" : "text-synthPink"}`}>{player}</h2>
             <Captures />
             <Timer />
